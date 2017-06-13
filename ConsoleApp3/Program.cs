@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
+using System.Globalization;
+using System.Collections.Specialized;
 
 namespace ConsoleApp3
 {
@@ -22,6 +24,7 @@ namespace ConsoleApp3
             stack.Push("Second");
             stack.Push("Third");
             stack.Push("Fourth");
+
 
             while (stack.Count > 0)
             {
